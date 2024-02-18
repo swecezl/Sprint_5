@@ -13,5 +13,3 @@ def generate_password(number):
     for i in range(number):
         password += random.choice(symbols)
     return password
-
-print(generate_password(random.randint(1, 5)))

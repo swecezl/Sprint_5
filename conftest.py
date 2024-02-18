@@ -1,12 +1,7 @@
 import pytest
-import random
-import string
 from urls import *
 from selenium import webdriver
 from locators import *
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
 
 
 @pytest.fixture()
