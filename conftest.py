@@ -12,8 +12,7 @@ def driver():
 
 
 @pytest.fixture()
-def account_auth():
-    driver = webdriver.Chrome()
+def account_auth(driver):
     driver.get(url_login)
     driver.find_element(*TestLocators.input_email_login_page_locator).send_keys("evgeniy_taranenko_5@ya.ru")
     driver.find_element(*TestLocators.input_password_login_page_locator).send_keys("123456")

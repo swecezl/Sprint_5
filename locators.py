@@ -22,6 +22,6 @@ class TestLocators:
     constructor_fillings_button_locator = By.XPATH, "//span[text()='Начинки']"  # Таб Начинки
     constructor_buns_button_locator = By.XPATH, "//span[text()='Булки']"  # Таб Булки
     logo_locator = By.XPATH, "//*[name()='svg' and @width='290']"  # Лого
-    constructor_sauce_active_button_locator = By.XPATH, "//div[contains(@class, 'current')]/span[text()='Соусы']"
-    constructor_buns_active_button_locator = By.XPATH, "//div[contains(@class, 'current')]/span[text()='Булки']"
-    constructor_fillings_active_button_locator = By.XPATH, "//div[contains(@class, 'current')]/span[text()='Начинки']"
+    constructor_sauce_active_button_locator = By.XPATH, "//div[contains(@class, 'current')]/span[text()='Соусы']"  # Активный таб Соусы
+    constructor_buns_active_button_locator = By.XPATH, "//div[contains(@class, 'current')]/span[text()='Булки']"  # Активный таб Булки
+    constructor_fillings_active_button_locator = By.XPATH, "//div[contains(@class, 'current')]/span[text()='Начинки']"  # Активный таб Начинки
